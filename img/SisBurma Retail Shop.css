@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/);
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    size: 50px;
+}
+.logo img{
+    transition: 0.5s ease all;
+}
+.logo img:hover{
+    transform: scale(1.5);
+    
+    margin-left: 10px;
+    
+}
+
+.Nav-Bar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+    
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 7px;
+    transition:0.5s ease all;
+}
+nav ul li:hover{
+    transform: scale(1.2);
+    padding-left: 12px;
+    padding-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+
+nav font{
+    margin-left: 5px;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    padding: 4px;
+    border-radius: 50px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 100px;
+    font-size: 15px;
+}
+.nav-icon{
+    text-align: right;
+    margin-left: 66%;
+    width: 50px;
+    height: 50px;
+    size: 50px;
+}
+.nav-icon img{
+    transition: .3s ease-in-out;
+}
+.nav-icon img:hover{
+    transform: scale(1.2);
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.813);
+    color: rgb(116, 116, 116);
+    border-radius: 360px;
+}
+
+
+/* .Nav-Bar ul li ::before{
+    content: "";
+    background-color: black;
+    left: 0;
+    bottom: -0.3rem;
+    height: 3px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+.Nav-Bar ul li :hover ::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: -0.3rem;
+    height: 3px;
+    width: 100%;
+} */
+
+.homepage .home-s1{
+    font-weight: bold;
+    font-size: 30px;
+    position: static;
+    color: rgb(66, 64, 59);
+    transition: 0.5s ease-in-out;
+}
+.home-s1:hover{
+    transform: scale(1.5);
+    color: black;
+    padding-bottom: 50px;
+}
+.homepage .home-s2{
+    font-size: 12px;
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+    color: rgb(127, 127, 111);
+    margin-top: 25px;
+    transition: 0.5s ease-in-out;
+}
+.home-s2:hover{
+    transform: scale(1.1);
+    color: rgb(45, 42, 38);
+}
+
+.homepage {
+    text-align: center;
+    background-image: url(img/BgImgHome.jpg);
+    padding: 12%;
+    position:static;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.home-color{
+    padding: 50px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    opacity: 0.8;
+    border-radius:5px 25px 5px 25px ;
+    box-shadow:10px 10px 20px rgb(126, 98, 98);
+    background-color: rgb(209, 209, 209);
+    transition: 0.5s  ease-in-out;
+}
+.home-color:hover{
+    color: gray;
+    transform: scale(1.1);
+    opacity: 0.95;
+    border-radius: 25px 5px 25px 5px;
+}
